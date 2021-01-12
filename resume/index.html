@@ -156,6 +156,15 @@
  -->
       </div>
     </div>
+
+  <script>
+    window.onload = () => {
+      if ((new URLSearchParams(window.location.search)).has("print")) {
+        window.print();
+      }
+    };
+  </script>
+
   </body>
 
 </html>
